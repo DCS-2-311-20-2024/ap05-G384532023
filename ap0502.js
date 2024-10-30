@@ -12,7 +12,7 @@ import GUI from 'ili-gui';
 function init() {
   const controls = {
     fov: 60, // 視野角
-    axes: true,
+    axes: false,
     test: false,
     rotate: false
   };

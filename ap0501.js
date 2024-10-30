@@ -12,7 +12,7 @@ import GUI from 'ili-gui';
 function init() {
   const controls = {
     rotation: 2,
-    axes: true,
+    axes: false,
     reset: function() {
       controls.rotation = 2;
       controls.axes = true;
@@ -84,7 +84,7 @@ function init() {
 
   // 球は影を作る
   sphere.castShadow = true;
-  
+
   // シーンに球を加える
   scene.add(sphere);
 
